@@ -1,0 +1,9 @@
+{% extends 'blog/blog_list.html' %}
+
+{% block title %}{{ blog_type.type_name }}{% endblock title %}
+
+{% block blog_list_title %}
+    <h3>
+        分类：{{ blog_type.type_name }}(一共有{{ blogs_count }}篇博客)
+    </h3>
+{% endblock %}

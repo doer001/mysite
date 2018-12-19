@@ -1,0 +1,40 @@
+ul.blog-types {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul.blog-types {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+div.blog h3 {
+    margin-top: 0.5em;
+}
+div.blog:not(:last-child) {
+    margin-bottom: 2em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #bbb;
+}
+div.blog p.blog-info {
+ margin-bottom: 0;
+}
+
+
+
+ul.blog-info-description {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 1em;
+}
+ul.blog-info-description li{
+    display: inline-block;
+    margin-right: 2em;
+}
+div.blog-content {
+    text-indent: 2em;
+}
+
+div.django-ckeditor-widget {
+    width: 100%;
+}
